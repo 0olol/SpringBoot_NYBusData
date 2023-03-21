@@ -73,7 +73,8 @@ public class rawDataService {
       
       public List<Long> update3(String column1,String column2) {
         try{
-          System.out.println("hello4 "+ column1+ column2);
+          System.out.println("hello4 "+ column1+ column2); //For testing purpose
+          //Looking at whether we can pass through the Path variables we get from the api call to the request to the DB
           return repository.findMinId(column1,column2);
         }catch(Exception e){
           throw new RuntimeException("fail update3: " + e.getMessage());
@@ -92,7 +93,7 @@ public class rawDataService {
       
       public List<rawData> findUniqueIds() {
         try{
-          System.out.println("hello5 ");
+          System.out.println("hello5 "); // For testing purpose 
           return repository.findUniqueIds();
         }catch(Exception e){
           throw new RuntimeException("fail update6: " + e.getMessage());
