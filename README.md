@@ -133,7 +133,7 @@ Project Link: [https://github.com/0olol/SpringBoot_NYBusData](https://github.com
 ## Credits
 
 * [BezKoder's Spring Boot: Upload & Read CSV file](https://www.bezkoder.com/spring-boot-upload-csv-file/)
-* [BezKoder' Spring Boot: Download CSV file](https://www.bezkoder.com/spring-boot-download-csv-file/)
+* [BezKoder's Spring Boot: Download CSV file](https://www.bezkoder.com/spring-boot-download-csv-file/)
 
 <p align="right">(<a href="#project-title">back to top</a>)</p>
 
